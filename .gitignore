@@ -1,0 +1,12 @@
+*.pro.user*
+
+*.autosave
+
+.qmake.stash
+debug/
+release/
+ui_*.h
+Makefile*
+object_script*
+*.zip
+*.dll
