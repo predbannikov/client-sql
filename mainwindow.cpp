@@ -90,3 +90,10 @@ void MainWindow::on_pushSubmit_clicked()
 }
 
 
+
+void MainWindow::on_pushCreateUser_clicked()
+{
+    CREATE USER 'test'@'localhost' IDENTIFIED BY 'secret';
+    FLUSH PRIVILEGES;
+}
+

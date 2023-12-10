@@ -28,6 +28,8 @@ private slots:
 
     void on_pushSubmit_clicked();
 
+    void on_pushCreateUser_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
